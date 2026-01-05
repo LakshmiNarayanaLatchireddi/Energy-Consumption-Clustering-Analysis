@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+# Data files
+*.csv
+*.zip
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+.Trash/
+Library/
+Containers/
+
+# Node / NVM (important)
+.nvm/
+
+# Environment files
+.env
+
