@@ -98,3 +98,42 @@ PCR provided stable predictive performance with reduced dimensionality.
 - Matthews Correlation Coefficient (MCC)
 
 The best-performing model was selected based on Macro F1-score, followed by a confusion matrix for interpretation.
+
+
+
+## Key Results
+- Household electricity consumption can be segmented into statistically distinct clusters
+- PCA effectively reduces dimensionality while preserving variance
+- K-Means achieved the strongest clustering performance among evaluated methods
+- ANOVA and Tukey’s HSD confirmed significant differences in energy usage across clusters
+- PCA-based regression demonstrated stable predictive performance
+- Machine learning models successfully classified households into energy consumption clusters
+
+
+## Tools and Libraries Used
+- Python
+- pandas, NumPy
+- scikit-learn
+- statsmodels
+- scipy
+- matplotlib, seaborn
+- scikit-learn-extra (for K-Medoids)
+
+## Author
+**Sai Prasanna Kamkolam**
+Masters in DataScience
+Florida Atlantic Univeristy
+
+**Lakshmi Narayana Latchireddi**  
+PhD Student, Computer Science  
+Florida Atlantic University
+
+**Kuheli Sai**
+
+**Minh Nguyen**
+
+---
+
+## License
+This project is intended for academic and educational use only.
+
